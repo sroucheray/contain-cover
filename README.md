@@ -44,3 +44,7 @@ You can also simply install it from npm
 ```bash
 npm install contain-cover
 ```
+Or from bower
+```bash
+bower install contain-cover
+```
