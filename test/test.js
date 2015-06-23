@@ -1,10 +1,10 @@
 import QUnit from "quint";
-import ObjectFit from "object-fit";
-import { contain, cover } from "object-fit";
+import ContainCover from "contain-cover";
+import { contain, cover } from "contain-cover";
 
 QUnit.test( "Export", function( assert ) {
-    assert.equal( typeof ObjectFit.contain, "function" );
-    assert.equal( typeof ObjectFit.cover, "function" );
+    assert.equal( typeof ContainCover.contain, "function" );
+    assert.equal( typeof ContainCover.cover, "function" );
 
     assert.equal( typeof contain, "function" );
     assert.equal( typeof cover, "function" );
