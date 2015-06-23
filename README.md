@@ -17,7 +17,8 @@ import { contain, cover } from "contain-cover";
 
 /*
 Given an 50px 50px element in a 100px 200px parent
-To be contains in its parent it must be of size 100px 100px and be positioned at 0px 50px to be centered.
+To be contains in its parent it must be of size 100px 100px
+and be positioned at 0px 50px to be centered.
 */
 let { width, height, x, y } = contain(100, 200, 50, 50);
 console.log(width, height, x, y);
@@ -26,9 +27,20 @@ console.log(width, height, x, y);
 
 /*
 Given an 50px 50px element in a 100px 200px parent
-To be covered in its parent it must be of size 200px 200px and be positioned at -50px 0px to be centered.
+To be covered in its parent it must be of size 200px 200px
+and be positioned at -50px 0px to be centered.
 */
 let { width, height, x, y } = cover(100, 200, 50, 50);
 console.log(width, height, x, y);
 //200 200 -50 0
+```
+
+# Installation and usage
+This JavaScript file use ES6 Module format. You can use transpile it with [TraceurJS](https://github.com/google/traceur-compiler) and [BabelJS](https://babeljs.io/). To use directly I suggest using [JSPM](http://jspm.io/).
+```bash
+jspm install npm:sroucheray/contain-cover
+```
+You can also simply install it from npm
+```bash
+npm install npm:sroucheray/contain-cover
 ```

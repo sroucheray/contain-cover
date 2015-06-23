@@ -1,0 +1,28 @@
+{
+  "name": "contain-cover",
+  "version": "0.2.0",
+  "homepage": "https://github.com/sroucheray/contain-cover",
+  "authors": [
+    "@sroucheray"
+  ],
+  "description": "Contain and cover functions",
+  "main": "contain-cover.js",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "es6",
+    "object-fit",
+    "background-size",
+    "contain",
+    "cover"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,19 +1,22 @@
 {
-  "name": "object-fit-methods",
-  "version": "0.1.0",
-  "description": "Object fit contains and cover methods",
-  "main": "object-fit.js",
+  "name": "contain-cover",
+  "version": "0.2.0",
+  "description": "Contain and cover function",
+  "main": "contain-cover.js",
   "format": "es6",
   "directories": {
     "test": "test",
     "packages": "jspm_packages"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Launch a static server from the root of this repo and open test/index.html in a browser\" && exit 1"
   },
   "keywords": [
     "es6",
-    "object-fit"
+    "object-fit",
+    "backgrouns-size",
+    "contain",
+    "cover"
   ],
   "author": "@sroucheray",
   "license": "ISC",
