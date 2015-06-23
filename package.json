@@ -1,0 +1,31 @@
+{
+  "name": "object-fit-methods",
+  "version": "0.1.0",
+  "description": "Object fit contains and cover methods",
+  "main": "object-fit.js",
+  "directories": {
+    "test": "test",
+    "packages": "jspm_packages"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "es6",
+    "object-fit"
+  ],
+  "author": "@sroucheray",
+  "license": "ISC",
+  "jspm": {
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {
+      "quint": "github:jquery/qunit@^1.18.0"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.89",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.89"
+    }
+  }
+}
