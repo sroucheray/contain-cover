@@ -26,6 +26,6 @@
     "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.89"
   },
   "jspm": {
-    "files": ["object-fit.js"]
+    "files": ["contain-cover.js"]
   }
 }

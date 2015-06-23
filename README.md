@@ -38,9 +38,9 @@ console.log(width, height, x, y);
 # Installation and usage
 This JavaScript file use ES6 Module format. You can use transpile it with [TraceurJS](https://github.com/google/traceur-compiler) and [BabelJS](https://babeljs.io/). To use directly I suggest using [JSPM](http://jspm.io/).
 ```bash
-jspm install npm:sroucheray/contain-cover
+jspm install npm:contain-cover
 ```
 You can also simply install it from npm
 ```bash
-npm install npm:sroucheray/contain-cover
+npm install contain-cover
 ```
