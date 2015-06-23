@@ -36,7 +36,7 @@ console.log(width, height, x, y);
 ```
 
 # Installation and usage
-This JavaScript file use ES6 Module format. You can use transpile it with [TraceurJS](https://github.com/google/traceur-compiler) and [BabelJS](https://babeljs.io/). To use directly I suggest using [JSPM](http://jspm.io/).
+This JavaScript file use ES6 Module format. You can transpile it with [TraceurJS](https://github.com/google/traceur-compiler) or [BabelJS](https://babeljs.io/). To use directly I suggest using [JSPM](http://jspm.io/).
 ```bash
 jspm install npm:contain-cover
 ```
