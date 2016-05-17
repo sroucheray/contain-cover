@@ -1,4 +1,4 @@
-function fit(contains = true){
+function fit(contains){
     return function(containerWidth, containerHeight, width, height){
         let doRatio = width / height;
         let cRatio = containerWidth / containerHeight;
@@ -23,10 +23,6 @@ function fit(contains = true){
     }
 }
 
-export let contain = fit(true);
-export let cover = fit(false);
-
-export default {
-    contain : contain,
-    cover : cover
-};
+export const contain = fit(true);
+export const cover = fit(false);
+export default { contain, cover };
